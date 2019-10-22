@@ -22,7 +22,7 @@ body {
     right: 18.3%;
     color: white;
     text-align: right;
-    font-family: sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 16px;
 }
 
@@ -74,7 +74,7 @@ hr {
     height: 100%;
     color: transparent;
     padding: 20px 0 0 45px;
-    font-family: sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 19px;
     transition: .7s;
 }
@@ -152,6 +152,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 20px 10px 20px;
-    font-family: arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 22px;
 }
