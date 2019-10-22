@@ -107,17 +107,18 @@ hr {
     align-items: center;
     padding: 50px 0 0 0;
 }
+
 .BeggarsBanquet {
     background-image: url(img/the-rolling-stones--beggars-banquet.jpg);
     background-repeat: no-repeat;
 }
 
-.SomeGirls{
+.SomeGirls {
     background-image: url(img/the-rolling-stones--some-girls.jpg);
     background-repeat: no-repeat;
 }
 
-.Aftermath{
+.Aftermath {
     background-image: url(img/the-rolling-stones--aftermath.jpg);
     background-repeat: no-repeat;
 }
@@ -127,6 +128,24 @@ hr {
     justify-content: center;
     align-items: center;
     padding: 50px 0 50px 0;
+}
+
+.BetweenTheButtons {
+    background-image: url(img/the-rolling-stones--between-the-buttons.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 90%;
+}
+
+.ItsOnlyRockandRoll {
+    background-image: url(img/the-rolling-stones--it-s-only-rock-and-roll.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.TattooYou {
+    background-image: url(img/the-rolling-stones--tattoo-you.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer {
