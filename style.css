@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    /* background-color: rgba(2, 2, 2, 0.842); */
+    background-image: url(img/stones\ -bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 70%;
+    background-repeat: no-repeat;
+    max-width: 1200px;
+}
+
+.dane {
+    position: absolute;
+    width: 8vw;
+    height: 4vh;
+    top: 2.5%;
+    right: 18.3%;
+    color: white;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.banner {
+    margin: 0 auto;
+    position: relative;
+    width: 70vw;
+    max-width: 1300px;
+    height: 35vh;
+    top: 40%;
+    transform: translate(0, 40%);
+    /* background-color: #fff; */
+    background-image: url(img/baner.png);
+    background-repeat: no-repeat;
+}
+
+hr {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border: 5px solid gray;
+    border-style: dashed;
+    width: 2.5vw;
+}
+
+.firstrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0 0 0;
+}
+
+.single {
+    position: relative;
+    width: calc(23.333vw - 7px);
+    height: 30vh;
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+.single:nth-child(3) {
+    margin-right: 0;
+}
+
+.list {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    padding: 20px 0 0 45px;
+    font-family: sans-serif;
+    font-size: 19px;
+    transition: .7s;
+}
+
+.list:hover {
+    color: white;
+    /* text-shadow: 0 0 4px black; */
+    background-color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+}
+
+.StickyFingers {
+    background-image: url(img/the-rolling-stones--sticky-fingers2.jpg);
+    background-repeat: no-repeat;
+}
+
+.ExileOnMainSt {
+    background-image: url(img/exile-on-main-street.jpg);
+    background-repeat: no-repeat;
+}
+
+.LetItBleed {
+    background-image: url(img/Rolling-Stones-Let-It-Bleed2.jpg);
+    background-repeat: no-repeat;
+}
+
+.secondrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 0 0;
+}
+.BeggarsBanquet {
+    background-image: url(img/the-rolling-stones--beggars-banquet.jpg);
+    background-repeat: no-repeat;
+}
+
+.SomeGirls{
+    background-image: url(img/the-rolling-stones--some-girls.jpg);
+    background-repeat: no-repeat;
+}
+
+.Aftermath{
+    background-image: url(img/the-rolling-stones--aftermath.jpg);
+    background-repeat: no-repeat;
+}
+
+.thirdrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 20px 10px 20px;
+    font-family: arial, sans-serif;
+    font-size: 22px;
+}
